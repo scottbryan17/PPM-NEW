@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fcucbanner {
+    width: 100%;
+    display: flex;
+}
+
+.fcucbannerlogo {
+    height: 128px;
+    width: 128px;
+}
+
+#fcuccrest {
+    flex: 1;
+    text-align: center;
+}
+
+#fcucname {
+    text-align: center;
+    flex: 1;
+    flex-grow: 7;
+}
+
+.fcuclogo {
+    width: 256px;
+    text-align: center;
+}
+
+.scrollBar {
+    width: 100%;
+}
+
+#navigation {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background: #ff3019;
+    background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0);
+    height: 60px;
+    /*navigation bar height*/
+    align-items: center;
+    justify-content: center;
+}
+
+.about_list {
+    list-style: none;
+    //display: none;
+    visibility: hidden;
+    transition: all 0s ease 0.5s;
+    /*delay after hover*/
+    padding: 20px;
+    position: absolute;
+    top: 30.5%;
+    left: 20%;
+    margin: 0;
+    z-index: 1;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+
+.about_list li a {
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+}
+
+.about_list li {
+    margin: 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.about:hover .about_list {
+    //display: block;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+.services_list {
+    list-style: none;
+    //display: none;
+    visibility: hidden;
+    transition: all 0s ease 0.5s;
+    /*delay after hover*/
+    padding: 20px;
+    position: absolute;
+    top: 30.5%;
+    left: 35%;
+    margin: 0;
+    z-index: 1;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+
+.services_list li a {
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+}
+
+.services_list li {
+    margin: 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.services:hover .services_list {
+    //display: block;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+.home {
+    flex: 1;
+}
+
+.about {
+    flex: 1;
+}
+
+.about::after {
+    color: white;
+    content: " \25BE";
+}
+
+.services {
+    flex: 1;
+}
+
+.services::after {
+    color: white;
+    content: " \25BE";
+}
+
+.facilities {
+    flex: 1;
+}
+
+.login{
+  flex:1;
+  border-left: 1px solid black;
+}
+
+.item {
+    flex: 1;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.content_container {
+    width: 100%;
+    //border: 1px solid black;
+    z-index: -1;
+    background: url(images/librarybackground2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.search{text-align: center;}
+.search_container{//border: 1px solid black; padding: 10;}
+
+.content {
+    display: flex;
+    margin: 10px;
+    //border: 1px solid black;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    padding: 10;
+}
+
+.content_questions{
+  border-top: 1px solid #464240;
+  text-align: center;
+  padding-top:10px;
+  margin-top: 50px;
+}
+
+.content_questions p{
+  color: white;
+   font-family: "Open Sans",Helvetica,Arial,sans-serif;}
+
+.askalibrarian{
+  color: white;
+}
+
+.content1 {
+    background-color: rgba(40, 36, 34, 0.96);
+    flex: 1;
+    height: 300px;
+    text-align: left;
+    padding: 10px;
+    margin-right: 1%;
+}
+
+#content_title {
+    color: #699785;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#gettingstarted li {
+    display: block;
+    list-style: none;
+    margin: 15px 0 15px 0;
+}
+
+#gettingstarted li a::after{
+  content : "\003e";
+}
+
+#gettingstarted li a {
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#gethelp li{
+  list-style: none;
+  margin: 15px 0 15px 0;
+}
+
+#gethelp li a::after{
+  content : "\003e";
+}
+
+#gethelp li a{
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.content2 {
+    background-color: rgba(40, 36, 34, 0.96);
+    flex: 1;
+    height: 300px;
+    margin-right: 1%;
+    padding: 10;
+    text-align: left;
+}
+
+#content2_title{
+  color: #8b85bb;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.content3 {
+    height: 300px;
+    flex: 1;
+    background-color: rgba(40, 36, 34, 0.96);
+    padding: 10;
+    margin-right: 0.2%;
+}
+
+#content3_title{
+  color: #e85f50;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+.extracontent_container{
+  text-align: center;
+  //width: 100%;
+  //border: 1px solid black;
+  //z-index: -1;
+  background: url(images/librarybackground3.jpe) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.extracontent1{
+  display: flex;
+  padding: 10;
+}
+
+.extracontent1 div{
+  flex:1;
+  margin-right: 1%;
+  padding: 0;
+}
+
+.extracontent1 div img{
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 1%;
+}
