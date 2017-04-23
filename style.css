@@ -56,7 +56,7 @@
     /*delay after hover*/
     padding: 20px;
     position: absolute;
-    top: 30.5%;
+    top: 26.5%;
     left: 20%;
     margin: 0;
     z-index: 1;
@@ -93,8 +93,8 @@
     /*delay after hover*/
     padding: 20px;
     position: absolute;
-    top: 30.5%;
-    left: 35%;
+    top: 26.5%;
+    left: 37%;
     margin: 0;
     z-index: 1;
     background: #ffffff;
@@ -164,7 +164,8 @@
     width: 100%;
     //border: 1px solid black;
     z-index: -1;
-    background: url(images/librarybackground2.jpg) no-repeat center center fixed;
+    background: url(images/librarybackground.jpg) no-repeat center center fixed;
+    //background-color: red;
     background-size: cover;
     margin: 0;
 }
@@ -174,7 +175,7 @@
 
 .content {
     display: flex;
-    margin: 10px;
+    //margin: 10px;
     //border: 1px solid black;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     padding: 10;
@@ -273,7 +274,7 @@
 
 .extracontent_container{
   text-align: center;
-  //width: 100%;
+  width: 100%;
   //border: 1px solid black;
   //z-index: -1;
   background: url(images/librarybackground3.jpe) no-repeat center center fixed;
@@ -294,7 +295,38 @@
 }
 
 .extracontent1 div img{
-  flex-wrap: wrap;
-  flex-direction: row;
+  //flex-wrap: wrap;
+  //flex-direction: row;
   margin-bottom: 1%;
+}
+
+.footer_container{
+  width: 100%;
+}
+
+.social_media{
+  display: flex;
+  text-align: center;
+}
+
+.sm_images{
+  width: 100px;
+  height: 100px;
+}
+
+#facebook{
+  flex: 1;
+  border-right: 1px solid black;
+  padding: 10;
+}
+
+#twitter{
+  flex: 1;
+  border-right: 1px solid black;
+  padding: 10;
+}
+#gmail{
+  flex: 1;
+  border-right: 1px solid black;
+  padding: 10;
 }
