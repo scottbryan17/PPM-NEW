@@ -71,7 +71,7 @@
     /*delay after hover*/
     padding: 20px;
     position: absolute;
-    top: 26.5%;
+
     left: 20%;
     margin: 0;
     z-index: 1;
@@ -108,7 +108,7 @@
     /*delay after hover*/
     padding: 20px;
     position: absolute;
-    top: 26.5%;
+
     left: 37%;
     margin: 0;
     z-index: 1;
@@ -313,12 +313,8 @@
     .footer_container {
         width: 100%;
         background: #ff3019;
-        background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
-        background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
-        background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0);
+       
         text-align: center;
-
     }
     .footer_logo {
         text-align: center;
@@ -332,9 +328,11 @@
       color: white;
     }
 
-    .social_media {
+    .social_media div {
+		background: #ff3019;
+        
         text-align: center;
-        width: 100%;
+		width: 100%;
     }
 
     #facebook {
@@ -351,11 +349,11 @@
     }
     #gmail {
         float: left;
-        width: 32.5%;
+        width: 33%;
         margin: 0 auto;
         text-align: left;
     }
-    /*
+    
     .images {
         background: url(images/librarybackground3.jpe) no-repeat center center fixed;
         background-size: cover;
@@ -464,6 +462,5 @@
         .popup {
             width: 70%;
         }
-        >>>>>>>5fdb608dbaed4fe4e25dd91b9750957fdb339b3e
     }
-*/
+
