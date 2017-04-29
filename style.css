@@ -184,17 +184,11 @@
     //background-color: red;
     background-size: cover;
     margin: 0;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f5f6+0,e3eaed+37,c8d7dc+100;Grey+3D+%234 */
     background: #f2f5f6;
-    /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
-    /* FF3.6-15 */
     background: -webkit-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
-    /* Chrome10-25,Safari5.1-6 */
     background: radial-gradient(ellipse at center, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
 }
 
 .search {
@@ -202,13 +196,15 @@
 }
 
 .search_container {
-    //border: 1px solid black; padding: 10;}
+    //border: 1px solid black; padding: 10;
+}
+
     .content {
         display: flex;
         //margin: 10px;
         //border: 1px solid black;
         font-family: "Open Sans", Helvetica, Arial, sans-serif;
-        padding: 10;
+        padding: 50;
     }
     .content_questions {
         border-top: 1px solid #464240;
