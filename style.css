@@ -277,6 +277,11 @@
         padding: 10;
         margin-right: 0.2%;
     }
+    .video_container{
+      margin: 10;
+      //padding: 10;
+      text-align: center;
+    }
     #content3_title {
         color: #e85f50;
         font-weight: bold;
