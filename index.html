@@ -1,15 +1,16 @@
 <html>
 <link rel="stylesheet" ref="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
 <div class="wrapper">
 
     <div class="fcucbanner">
         <div id="fcuccrest">
-            <img src="images/fcuccrest.png" class="fcucbannerlogo">
+            <img src="images/fcuccrest.png" class="fcucbannerlogo" height="128px" width="128px">
         </div>
-        <div class="fcuclogo">
-            <img src="images/fcuclogo.png" class="fcuclogo">
+        <div id="fcuclogo">
+            <img src="images/fcuclogo.png" class="fcuclogo" height="128px" width="256px">
         </div>
         <div id="fcucname">
             <h1>FIRST CITY UC LIBRARY</h1>
@@ -22,22 +23,34 @@
                 <a href="#" class="item">HOME</a>
             </div>
             <div class="about">
-                <a href="#" class="item">ABOUT
+              <button onclick="myAbout()" class="aboutbtn">ABOUT</button>
+              <div id="about" class="about-content">
+                  <a href="#">Opening Hours</a>
+                  <a href="#">Rules</a>
+                  <a href="#">Contact</a>
+                  <a href="#">FAQ</a>
+              </div>
+                <!-- <a href="#" class="item">ABOUT
               <ul class="about_list">
                 <li><a href="#">OPENING HOURS</a></li>
                 <li><a href="#">RULES</a></li>
                 <li><a href="#">CONTACT</a></li>
                 <li><a href="#">FAQ</a></li>
                 </ul>
-                </a>
+                </a> -->
             </div>
             <div class="services">
-                <a href="#" class="item">SERVICES
+              <button onclick="myServices()" class="servicesbtn">SERVICES</button>
+              <div id="services" class="services-content">
+                  <a href="#">Borrowing</a>
+                  <a href="#">Reserve</a>
+              </div>
+                <!-- <a href="#" class="item">SERVICES
                 <ul class="services_list">
                   <li><a href="#">BORROWING</a></li>
                 <li><a href="#">RESERVE</a></li>
                 </ul>
-                </a>
+                </a> -->
             </div>
             <div class="facilities">
                 <a href="#" class="item">FACILITIES</a>
@@ -99,22 +112,19 @@
         <h1>See what new books we have </h1>
         <div class="extracontent1">
             <div>
-                <img src="images/SEbook.jpe" width="50px" height="100px" />
+                <img src="images/SEbook.jpe" width="100px" height="100px" />
             </div>
             <div>
-                <img src="images/domino.jpg" width="50px" height="100px" />
+                <img src="images/domino.jpg" width="100px" height="100px" />
             </div>
             <div>
-                <img src="images/graphicdesign.jpg" width="50px" height="100px" />
+                <img src="images/graphicdesign.jpg" width="100px" height="100px" />
             </div>
             <div>
-                <img src="images/EEbook.jpe" width="50px" height="100px" />
+                <img src="images/EEbook.jpe" width="100px" height="100px" />
             </div>
             <div>
-                <img src="images/MCbook.jpe" width="50px" height="100px" />
-            </div>
-            <div>
-                <img src="images/IDbook.jpe" width="50px" height="100px" />
+                <img src="images/MCbook.jpe" width="100px" height="100px" />
             </div>
         </div>
     </div>

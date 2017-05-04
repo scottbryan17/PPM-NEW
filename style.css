@@ -8,18 +8,12 @@
 .fcucbanner {
     width: 100%;
     display: flex;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f5f6+0,e3eaed+37,c8d7dc+100;Grey+3D+%234 */
     background: #f2f5f6;
-    /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
-    /* FF3.6-15 */
     background: -webkit-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
-    /* Chrome10-25,Safari5.1-6 */
     background: radial-gradient(ellipse at center, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
-}
+    }
 
 .fcucbannerlogo {
     height: 128px;
@@ -31,18 +25,18 @@
     text-align: center;
 }
 
+#fcuclogo {
+    width: 256px;
+    text-align: center;
+}
+
 #fcucname {
     text-align: center;
     flex: 1;
     flex-grow: 7;
     font-family: "Vollkorn";
-    font-size: 30px;
+    font-size: 23px;
     font-weight: lighter;
-}
-
-.fcuclogo {
-    width: 256px;
-    text-align: center;
 }
 
 .scrollBar {
@@ -64,12 +58,72 @@
     justify-content: center;
 }
 
-.about_list {
+.aboutbtn {
+    background-color: Transparent;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-family: Ubuntu;
+    border: none;
+    cursor: pointer;
+}
+
+.about-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.about-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.aboutshow {
+    display: block;
+}
+
+.servicesbtn {
+    color: white;
+    font-size: 20px;
+    font-family: Ubuntu;
+    border: none;
+    cursor: pointer;
+    background-color: Transparent;
+    outline: none;
+}
+
+.services-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.services-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.servicesshow {
+    display: block;
+    transition-delay: 0s;
+}
+/*.about_list {
     list-style: none;
     //display: none;
     visibility: hidden;
     transition: all 0s ease 0.5s;
-    /*delay after hover*/
+    /*delay after hover
     padding: 20px;
     position: absolute;
     top: 26.5%;
@@ -99,14 +153,14 @@
     //display: block;
     visibility: visible;
     transition-delay: 0s;
-}
+}*/
 
-.services_list {
+/*.services_list {
     list-style: none;
     //display: none;
     visibility: hidden;
     transition: all 0s ease 0.5s;
-    /*delay after hover*/
+    /*delay after hover
     padding: 20px;
     position: absolute;
     top: 26.5%;
@@ -136,7 +190,7 @@
     //display: block;
     visibility: visible;
     transition-delay: 0s;
-}
+}*/
 
 .home {
     flex: 1;
@@ -278,9 +332,7 @@
         margin-right: 0.2%;
     }
     .video_container{
-      margin: 10;
-      //padding: 10;
-      text-align: center;
+      text-align: cen
     }
     #content3_title {
         color: #e85f50;
@@ -306,6 +358,7 @@
         flex: 1;
         margin-right: 1%;
         padding: 0;
+        width: 19.8%;
     }
     .extracontent1 div img {
         //flex-wrap: wrap;
