@@ -1,6 +1,5 @@
     @import url('https://fonts.googleapis.com/css?family=Vollkorn');
-
-* {
+{
     padding: 0;
     margin: 0;
 }
@@ -118,7 +117,7 @@
     display: block;
     transition-delay: 0s;
 }
-/*.about_list {
+.about_list {
     list-style: none;
     //display: none;
     visibility: hidden;
@@ -153,9 +152,9 @@
     //display: block;
     visibility: visible;
     transition-delay: 0s;
-}*/
+}
 
-/*.services_list {
+.services_list {
     list-style: none;
     //display: none;
     visibility: hidden;
@@ -190,7 +189,7 @@
     //display: block;
     visibility: visible;
     transition-delay: 0s;
-}*/
+}
 
 .home {
     flex: 1;
@@ -415,7 +414,7 @@
         margin: 0 auto;
         text-align: left;
     }
-    /*
+ 
     .images {
         background: url(images/librarybackground3.jpe) no-repeat center center fixed;
         background-size: cover;
@@ -526,4 +525,4 @@
         }
         >>>>>>>5fdb608dbaed4fe4e25dd91b9750957fdb339b3e
     }
-*/
+
