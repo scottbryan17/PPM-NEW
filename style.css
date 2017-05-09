@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 @import url('https://fonts.googleapis.com/css?family=Molengo');
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 * {
+=======
+    @import url('https://fonts.googleapis.com/css?family=Vollkorn');
+{
+>>>>>>> refs/remotes/origin/master
     padding: 0;
     margin: 0;
 }
@@ -141,6 +146,82 @@
     display: block;
     transition-delay: 0s;
 }
+<<<<<<< HEAD
+=======
+.about_list {
+    list-style: none;
+    //display: none;
+    visibility: hidden;
+    transition: all 0s ease 0.5s;
+    /*delay after hover
+    padding: 20px;
+    position: absolute;
+    top: 26.5%;
+    left: 20%;
+    margin: 0;
+    z-index: 1;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+
+.about_list li a {
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+}
+
+.about_list li {
+    margin: 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.about:hover .about_list {
+    //display: block;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+.services_list {
+    list-style: none;
+    //display: none;
+    visibility: hidden;
+    transition: all 0s ease 0.5s;
+    /*delay after hover
+    padding: 20px;
+    position: absolute;
+    top: 26.5%;
+    left: 37%;
+    margin: 0;
+    z-index: 1;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+
+.services_list li a {
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+}
+
+.services_list li {
+    margin: 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.services:hover .services_list {
+    //display: block;
+    visibility: visible;
+    transition-delay: 0s;
+}
+>>>>>>> refs/remotes/origin/master
 
 .home {
     flex: 1;
@@ -402,6 +483,7 @@
     width: 100%;
 }
 
+<<<<<<< HEAD
 #facebook {
     float: left;
     margin: 0 auto;
@@ -527,10 +609,104 @@
 @media screen and (max-width: 700px) {
     .box {
         width: 70%;
+=======
+    #facebook {
+        float: left;
+        margin: 0 auto;
+        width: 33.5%;
+        text-align: right;
+    }
+    #twitter {
+        float: left;
+        width: 33.5%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #gmail {
+        float: left;
+        width: 33%;
+        margin: 0 auto;
+        text-align: left;
+    }
+ 
+    .images {
+        background: url(images/librarybackground3.jpe) no-repeat center center fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+    .images img {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-right: 135px;
+        padding-left: 30px;
+        list-style: none;
+        display: inline;
+        white-space: nowrap;
+    }
+    .images h1 {
+        text-align: center;
+    }
+    .books_img {
+        background-size: cover;
+        margin: 0 0 0 15;
+        display: inline-block;
+    }
+    .Library_button {
+        z-index: 999;
+        display: inline-block;
+        margin: 0;
+        width: 110px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        text-align: center;
+        background-color: white;
+        color: black;
+    }
+    .Library_button:hover {
+        background: pink;
+    }
+    .button_option {
+        width: auto;
+        height: auto;
+    }
+    .caption {
+        margin-left: 60px;
+    }
+    .Helpcontent_container {
+        text-align: center;
+        //width: 100%;
+        //border: 1px solid black;
+        //z-index: -1;
+        background: url(images/librarybackground2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        margin-top: 10px;
+        padding: 0;
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .overlay:target {
+        visibility: visible;
+        opacity: 1;
+>>>>>>> refs/remotes/origin/master
     }
     .popup {
         width: 70%;
     }
+<<<<<<< HEAD
     >>>>>>>5fdb608dbaed4fe4e25dd91b9750957fdb339b3e
 }
 */
+=======
+
+>>>>>>> refs/remotes/origin/master
