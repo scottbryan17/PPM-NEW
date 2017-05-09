@@ -621,6 +621,20 @@ input:focus {
   background: -webkit-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
   background: radial-gradient(ellipse at center, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc', GradientType=1);
+  padding:50px;
+}
+
+#opening_hours{
+  margin: 20px;
+}
+
+#rules{
+  margin: 20px;
+}
+
+#rules ul{
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 /*
