@@ -1,60 +1,30 @@
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<div class="row">
-						<section class="4u 6u(medium) 12u$(small)">
-							<h3>e-Library Rules & Regulation</h3>
-							<p>Learn to avoid law suits!</p>
-							<ul class="alt">
-								<li><a href="terms.php">Terms & Condition</a></li>
-								<li><a href="faq.php">Frequent Asked Question</a></li>
-								<li><a href="banned.php">Black List?</a></li>
-								<li><a href="benefits.php">Benefits</a></li>
-							</ul>
-						</section>
-						<section class="4u 6u$(medium) 12u$(small)">
-							<h3>e-Library info</h3>
-							<p>A full detail on e-Library creators</p>
-							<ul class="alt">
-								<li><a href="about.php">About Us</a></li>
-								<li><a href="contact.php">Contact Us</a></li>
-								<li><a href="location.php">Location</a></li>
-								<li><a href="comments.php">Comments</a></li>
-							</ul>
-						</section>
-						<section class="4u$ 12u$(medium) 12u$(small)">
-							<h3>Contact Us</h3>
-							<ul class="icons">
-								<li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon rounded fa-pinterest"><span class="label">Pinterest</span></a></li>
-								<li><a href="#" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="tabular">
-								<li>
-									<h3>Address</h3>
-									KBU International College<br>
-									Bandar Utama
-								</li>
-								<li>
-									<h3>Mail</h3>
-									<a href="#">e-Library@untitled.tld</a>
-								</li>
-								<li>
-									<h3>Phone</h3>
-									(03) 123-45678
-								</li>
-							</ul>
-						</section>
-					</div>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li>
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
-					</ul>
-				</div>
-			</footer>
 
-	</body>
+    <footer class="footer">
+      <div class="container">
+	  <div class="foot-margin">
+        <p><a>2013 E.B. Magalona National High School. All Rights Reserved. </a></p>
+      </div>
+      </div>
+    </footer>
+	
+	<script type="text/javascript">
+			$(function() {
+				$('#da-thumbs > li').hoverdir();
+			});
+		</script>
+	
+<div id="logout" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-body">
+<div class="alert alert-danger">Are you sure you want to Logout</div>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<a href="logout.php" class="btn btn-danger">Yes</a>
+</div>
+</div>	
+
+<script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
+<script type='text/javascript' src='scripts/jquery.hoverIntent.minified.js'></script> 
+<script type='text/javascript' src='scripts/diapo.js'></script> 
+</body>
 </html>

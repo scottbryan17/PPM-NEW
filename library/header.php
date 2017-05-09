@@ -1,79 +1,46 @@
 <!DOCTYPE html>
-<!--
-	Interphase by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>e-Library</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
-
-		<!-- Header -->
-			<header id="header">
-				<h1><a href="index.php">e-Library</a></h1>
-				<nav id="nav">
-					<ul>
-					
-					<?php					
-					error_reporting(0);
-					session_start();
-					
-					if(($_SESSION['Position']=='Admin')&&($_SESSION['Position']!="")){ ?>
-						<li><a href="booklist.php">Book</a></li>
-						<li><a href="adminborrowmanual.php">Borrow</a></li>
-						<li><a href="adminpendinglist.php">Pending</a></li>
-						<li><a href="calculatefine.php">Return</a></li>
-						<li><a href="admindelete.php">Delete Book</li>
-						<li><a href="checkingdelete.php">Delete User</a></li>
-						<li><a href="adminupdate.php">Update Status</a></li>
-						<li><a href="searchbook.php">Search</a></li>
-						<li><a href="searchuserborrow.php">History</a></li>
-						<li><a href="adminrejectlist.php">Reject</a></li>
-						<li><a href="registration.php">Register</a></li>
-						<li><a href="insertbook.php">Insert</a></li>
-						<li><a href="logout.php">Log out</a></li>
-						
-					<?php 
-					}
-					
-					elseif(($_SESSION['Position']=='Student')||($_SESSION['Position']=='Teacher')&&($_SESSION['Position']!="")){ ?>
-					    <li><a href="index.php">Home</a></li>
-						<li><a href="booklist.php">Book List</a></li>
-						<li><a href="searchbook.php">Search</a></li>
-						<li><a href="profile.php">Profile</a></li>
-						<li><a href="calculatefine.php">Reserve List</a></li>
-						<li><a href="faq.php">FAQ</a></li>
-						<li><a href="logout.php">Log Out</a></li>
-					<?php 
-					}
-					
-					else{ ?>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="booklist.php">Book List</a></li>
-						<li><a href="searchbook.php">Search</a></li>
-						<li><a href="userregister.php">Register</a></li>
-						<li><a href="faq.php">FAQ</a></li>
-						<li><a href="login.php">Log In</a></li>
-					<?php 
-					} ?>
-					
-					</ul>
-				</nav>
-			</header>
+<html>
+<head>
+	<title>E.B. Magalona National High School</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+			<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+			<link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+			<link href="css/docs.css" rel="stylesheet" media="screen">
+			<link href="css/diapo.css" rel="stylesheet" media="screen">
+			<link href="css/font-awesome.css" rel="stylesheet" media="screen">
+			<link rel="stylesheet" type="text/css" href="css/style.css" />
+			<link rel="stylesheet" type="text/css" href="css/DT_bootstrap.css" />
+	
+	<!-- js -->			
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/jquery.hoverdir.js"></script>
+	<script type="text/javascript" charset="utf-8" language="javascript" src="js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf-8" language="javascript" src="js/DT_bootstrap.js"></script>
+			
+<script>
+jQuery(document).ready(function() {
+$(function(){
+	$('.pix_diapo').diapo();
+});
+});
+</script>	
+	<noscript>
+			<style>
+				.da-thumbs li a div {
+					top: 0px;
+					left: -100%;
+					-webkit-transition: all 0.3s ease;
+					-moz-transition: all 0.3s ease-in-out;
+					-o-transition: all 0.3s ease-in-out;
+					-ms-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
+				}
+				.da-thumbs li a:hover div{
+					left: 0px;
+				}
+			</style>
+		</noscript>		
+</head>
+<body>
