@@ -1,0 +1,104 @@
+<html>
+<link rel="stylesheet" ref="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+<div class="wrapper">
+    <div class="fcucbanner">
+        <div id="fcuccrest">
+            <img src="images/fcuccrest.png" class="fcucbannerlogo" height="128px" width="120px">
+        </div>
+        <div id="fcuclogo">
+            <img src="images/fcuclogo.png" class="fcuclogo" height="128px" width="256px">
+        </div>
+        <div id="fcucname">
+            <h1>FIRST CITY UC LIBRARY</h1>
+        </div>
+    </div>
+
+    <div class="scrollBar">
+        <div id="navigation">
+            <div class="home">
+                <a href="index.html" class="item">HOME</a>
+            </div>
+            <div class="about">
+                <button onclick="myAbout()" class="aboutbtn">ABOUT</button>
+                <div id="about" class="about-content">
+                    <a href="#">Opening Hours</a>
+                    <a href="#">Rules</a>
+                    <a href="#">Contact</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+            <div class="services">
+                <button onclick="myServices()" class="servicesbtn">SERVICES</button>
+                <div id="services" class="services-content">
+                    <a href="#">Borrowing</a>
+                    <a href="#">Reserve</a>
+                </div>
+            </div>
+            <!-- <div class="facilities">
+            <a href="#" class="item">FACILITIES</a>
+        </div> -->
+            <div class="news">
+                <a href="#" class="item">NEWS & EVENTS</a>
+            </div>
+            <div class="login">
+                <a href="#" id="loginButton"><span>LOGIN</a></a>
+                <div style="clear:both"></div>
+                <div id="loginBox">
+                    <form id="loginForm">
+                        <fieldset id="body">
+                            <fieldset>
+                                <label for="email">Email Address</label>
+                                <input type="text" name="email" id="email" />
+                            </fieldset>
+                            <fieldset>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" />
+                            </fieldset>
+                            <input type="submit" id="login" value="Sign in" />
+                            <label for="checkbox"><input type="checkbox" id="checkbox" />Remember me</label>
+                        </fieldset>
+                        <span><a href="#">Forgot your password?</a></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about_content_wrapper">
+        <div class="about_content_container">
+            <div class="about_content">
+                <div id="opening_hours">
+                    <h1>Library Opening Hours:</h1>
+                    <h2>First City University College Library</h2>
+                    <p>Monday - Friday: 8:30am to 6:00pm </p>
+                    <p>Saturday & Sunday: Closed </p>
+                    <p>Public Holidays: Closed </p>
+                </div>
+                <div id="rules">
+                    <h1>Rules & Regulations</h1>
+                    <p>In order to maintain a safe and welcoming environment for reading, learning and other Library activities, First City UC require all visitors to comply with the following Rules and Regulations. Visitors must also comply with all First
+                        City UC Ordinances.</p>
+                    <ul>
+                        <p>1. Student ID</p>
+                        <li>Student ID cards are compulsory for admission into the library and must be promptly displayed upon request by library staff</li>
+                        <li>Student ID cards are not transferable</li>
+                        <li>Lost Student ID Cards must be reported to the Main Office immediatly to avoid other parties using it</li>
+                    </ul>
+                    <ul>
+                        <p>2. Loans/Returns</p>
+                        <li>Users are allowed to borrow library materials 15 minutes before library closure</li>
+                        <li>Library books must be returned via electronic/manual book drop located at the respective libraries</li>
+                        <li>A fine is charged on loans kept beyond the due date and is payable upon return of the item</li>
+                        <li>Failure to receive any notice sent does not relieve a borrower from their responsibility to return library materials by the date due</li>
+                        <li>Any overdue item not returned within 14 days after the final reminder letter has been sent shall be considered lost. The cost of replacing the item wil be notified to the student</li>
+                        <li>Library users are responsible for the safekeeping and return of the library materials issued under their name</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
