@@ -520,6 +520,7 @@ input:focus {
 
 .footer_logo {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .footer_logo p {
@@ -529,12 +530,16 @@ input:focus {
 
 .footer_address {
     text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 70px;
 }
 
 .footer_address p {
     font-size: 25px;
     color: white;
 }
+
 
 .social_media div {
     background: #ff3019;
