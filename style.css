@@ -1,4 +1,5 @@
     @import url('https://fonts.googleapis.com/css?family=Vollkorn');
+<<<<<<< HEAD
     @import url('https://fonts.googleapis.com/css?family=Molengo');
     @import url('https://fonts.googleapis.com/css?family=Alegreya');
 
@@ -235,6 +236,246 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', end
         //background-color: red;
         background-size: cover;
         /*margin: 0;
+=======
+{
+    padding: 0;
+    margin: 0;
+}
+
+.fcucbanner {
+    width: 100%;
+    display: flex;
+    background: #f2f5f6;
+    background: -moz-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    background: radial-gradient(ellipse at center, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc', GradientType=1);
+    }
+
+.fcucbannerlogo {
+    height: 128px;
+    width: 128px;
+}
+
+#fcuccrest {
+    flex: 1;
+    text-align: center;
+}
+
+#fcuclogo {
+    width: 256px;
+    text-align: center;
+}
+
+#fcucname {
+    text-align: center;
+    flex: 1;
+    flex-grow: 7;
+    font-family: "Vollkorn";
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.scrollBar {
+    width: 100%;
+}
+
+#navigation {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background: #ff3019;
+    background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0);
+    height: 60px;
+    /*navigation bar height*/
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutbtn {
+    background-color: Transparent;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-family: Ubuntu;
+    border: none;
+    cursor: pointer;
+}
+
+.about-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.about-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.aboutshow {
+    display: block;
+}
+
+.servicesbtn {
+    color: white;
+    font-size: 20px;
+    font-family: Ubuntu;
+    border: none;
+    cursor: pointer;
+    background-color: Transparent;
+    outline: none;
+}
+
+.services-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.services-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.servicesshow {
+    display: block;
+    transition-delay: 0s;
+}
+.about_list {
+    list-style: none;
+    //display: none;
+    visibility: hidden;
+    transition: all 0s ease 0.5s;
+    /*delay after hover
+    padding: 20px;
+    position: absolute;
+    top: 26.5%;
+    left: 20%;
+    margin: 0;
+    z-index: 1;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+
+.about_list li a {
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+}
+
+.about_list li {
+    margin: 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.about:hover .about_list {
+    //display: block;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+.services_list {
+    list-style: none;
+    //display: none;
+    visibility: hidden;
+    transition: all 0s ease 0.5s;
+    /*delay after hover
+    padding: 20px;
+    position: absolute;
+    top: 26.5%;
+    left: 37%;
+    margin: 0;
+    z-index: 1;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+
+.services_list li a {
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+}
+
+.services_list li {
+    margin: 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.services:hover .services_list {
+    //display: block;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+.home {
+    flex: 1;
+}
+
+.about {
+    flex: 1;
+}
+
+.about::after {
+    color: white;
+    content: " \25BE";
+}
+
+.services {
+    flex: 1;
+}
+
+.services::after {
+    color: white;
+    content: " \25BE";
+}
+
+.facilities {
+    flex: 1;
+}
+
+.login {
+    flex: 1;
+    border-left: 1px solid black;
+}
+
+.item {
+    flex: 1;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.content_container {
+    width: 100%;
+    //border: 1px solid black;
+    z-index: -1;
+    background: url(images/bg.jpg) no-repeat center center fixed;
+    //background-color: red;
+    background-size: cover;
+    /*margin: 0;
+>>>>>>> 0823150c94a7bd8d37b359df8fb4514a553bc94e
     background: #f2f5f6;
     background: -moz-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
     background: -webkit-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
@@ -448,7 +689,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', end
         margin: 0 auto;
         text-align: left;
     }
-    /*
+ 
     .images {
         background: url(images/librarybackground3.jpe) no-repeat center center fixed;
         background-size: cover;
@@ -559,4 +800,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', end
         }
         >>>>>>>5fdb608dbaed4fe4e25dd91b9750957fdb339b3e
     }
-*/
+
