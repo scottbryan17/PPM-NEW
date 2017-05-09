@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn|BioRhyme');
 @import url('https://fonts.googleapis.com/css?family=Molengo');
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
-
 * {
     padding: 0;
     margin: 0;
@@ -64,7 +63,6 @@
     background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0);
     height: 60px;
-    /*navigation bar height*/
     align-items: center;
     justify-content: center;
     font-family: Calibri;
@@ -100,7 +98,10 @@
     color: black;
     padding: 12px 16px;
     text-decoration: none;
+    text-align: left;
     display: block;
+    font-family: "BioRhyme";
+    font-size: 16px;
 }
 
 .aboutshow {
@@ -135,7 +136,10 @@
     color: black;
     padding: 12px 16px;
     text-decoration: none;
+    text-align: left;
     display: block;
+    font-family: "BioRhyme";
+    font-size: 16px;
 }
 
 .servicesshow {
@@ -242,8 +246,6 @@
 
 .content {
     display: flex;
-    //margin: 10px;
-    //border: 1px solid black;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     padding: 50;
 }
@@ -298,10 +300,6 @@
 #gethelp li {
     list-style: none;
     margin: 15px 0 15px 0;
-}
-
-#gethelp li a::after {
-    content: "\003e";
 }
 
 #gethelp li a {
@@ -410,11 +408,23 @@
     text-align: right;
 }
 
+#facebook a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
 #twitter {
     float: left;
     width: 33.5%;
     margin: 0 auto;
     text-align: center;
+}
+
+#twitter a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
 }
 
 #gmail {
@@ -423,6 +433,14 @@
     margin: 0 auto;
     text-align: left;
 }
+
+#gmail a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+
 /*
 .images {
     background: url(images/librarybackground3.jpe) no-repeat center center fixed;
@@ -626,6 +644,5 @@
     >>>>>>>5fdb608dbaed4fe4e25dd91b9750957fdb339b3e
 }
 */
-=======
 
->>>>>>> refs/remotes/origin/master
+=======>>>>>>>refs/remotes/origin/master
