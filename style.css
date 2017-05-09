@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 @import url('https://fonts.googleapis.com/css?family=Molengo');
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
 * {
-=======
-    @import url('https://fonts.googleapis.com/css?family=Vollkorn');
-{
->>>>>>> refs/remotes/origin/master
     padding: 0;
     margin: 0;
 }
@@ -146,82 +142,6 @@
     display: block;
     transition-delay: 0s;
 }
-<<<<<<< HEAD
-=======
-.about_list {
-    list-style: none;
-    //display: none;
-    visibility: hidden;
-    transition: all 0s ease 0.5s;
-    /*delay after hover
-    padding: 20px;
-    position: absolute;
-    top: 26.5%;
-    left: 20%;
-    margin: 0;
-    z-index: 1;
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
-    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
-    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
-}
-
-.about_list li a {
-    text-decoration: none;
-    display: block;
-    font-size: 19px;
-}
-
-.about_list li {
-    margin: 5px;
-    padding: 0;
-    text-align: left;
-}
-
-.about:hover .about_list {
-    //display: block;
-    visibility: visible;
-    transition-delay: 0s;
-}
-
-.services_list {
-    list-style: none;
-    //display: none;
-    visibility: hidden;
-    transition: all 0s ease 0.5s;
-    /*delay after hover
-    padding: 20px;
-    position: absolute;
-    top: 26.5%;
-    left: 37%;
-    margin: 0;
-    z-index: 1;
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
-    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
-    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
-}
-
-.services_list li a {
-    text-decoration: none;
-    display: block;
-    font-size: 19px;
-}
-
-.services_list li {
-    margin: 5px;
-    padding: 0;
-    text-align: left;
-}
-
-.services:hover .services_list {
-    //display: block;
-    visibility: visible;
-    transition-delay: 0s;
-}
->>>>>>> refs/remotes/origin/master
 
 .home {
     flex: 1;
@@ -483,7 +403,6 @@
     width: 100%;
 }
 
-<<<<<<< HEAD
 #facebook {
     float: left;
     margin: 0 auto;
@@ -628,7 +547,7 @@
         margin: 0 auto;
         text-align: left;
     }
- 
+
     .images {
         background: url(images/librarybackground3.jpe) no-repeat center center fixed;
         background-size: cover;
