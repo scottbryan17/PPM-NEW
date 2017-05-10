@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn|BioRhyme');
-@import url('https://fonts.googleapis.com/css?family=Molengo');
-@import url('https://fonts.googleapis.com/css?family=Alegreya');
+@import url('https://fonts.googleapis.com/css?family=Muli|Molengo|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Taviraj');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 * {
     padding: 0;
@@ -610,40 +610,108 @@ input:focus {
 }
 
 .about_content_container {
-//    display: flex;
+    //    display: flex;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     padding: 50;
 }
 
-.about_content{
-  background: #f2f5f6;
-  background: -moz-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
-  background: -webkit-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
-  background: radial-gradient(ellipse at center, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc', GradientType=1);
-  padding:50px;
+.about_content {
+    background: #f2f5f6;
+    background: -moz-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    background: radial-gradient(ellipse at center, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc', GradientType=1);
+    padding: 50px;
 }
 
-#opening_hours{
-  margin: 20px;
+#opening_hours {
+    margin: 20px;
 }
 
-#rules{
-  margin: 20px;
+#opening_hours h1{
+    font-family: "Tavirag";
+    font-style: italic;
+    font-size: 35px;
 }
 
-#rules ul{
-  margin-top: 20px;
-  margin-bottom: 50px;
+#opening_hours h2{
+    margin-bottom: 10px;
+    font-family: "Muli";
+    font-size: 22px;
 }
 
-.contact_us div{
-//  margin: 0px auto;
-  width: 50%;
-  //height: 340px;
-  padding: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  text-align: center;
+#opening_hours p{
+    font-family: "Roboto";
+    font-size: 17px;
+}
+
+#rules {
+    margin: 50px 20px 20px 20px;
+}
+
+#rules h1{
+  font-family: "Tavirag";
+  font-style: italic;
+  font-size: 35px;
+}
+
+#rules ul {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#rules p{
+  font-family: "Roboto";
+  font-size: 17px;
+  margin: 30px 0 0 0;
+}
+
+#rules ul li{
+  font-family: "Roboto";
+  font-size: 17px;
+}
+
+.contact_us {
+    margin: 20px;
+}
+
+.contact_us div {
+    //  margin: 0px auto;
+    width: 50%;
+    //height: 340px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.contact_us h1{
+  font-family: "Tavirag";
+  font-style: italic;
+  font-size: 35px;
+  margin: 0 0 30px 0 ;
+}
+
+.contact_us p{
+  font-family: "Roboto";
+  font-size: 17px;
+  margin: 10px 0 0 0;
+}
+
+.faq {
+    margin: 20px;
+}
+
+.faq h1{
+  font-family: "Tavirag";
+  font-style: italic;
+  font-size: 35px;
+  margin: 0 0 30px 0 ;
+}
+
+.faq p{
+  font-family: "Roboto";
+  font-size: 17px;
+  margin: 10px 0 0 0;
 }
 
 /*
