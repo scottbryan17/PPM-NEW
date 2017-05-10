@@ -516,10 +516,14 @@ input:focus {
     font-family: "Alegreya";
     font-size: 45px;
 }
+.slideshow_container{
+  padding:20px;
+}
 
 #slideshow {
     margin: 0px auto;
-    width: 42%;
+    text-align: center;
+    width: 40%;
     height: 340px;
     padding: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
