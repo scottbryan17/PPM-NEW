@@ -637,6 +637,15 @@ input:focus {
   margin-bottom: 50px;
 }
 
+.contact_us div{
+//  margin: 0px auto;
+  width: 50%;
+  //height: 340px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
 /*
 .images {
     background: url(images/librarybackground3.jpe) no-repeat center center fixed;
